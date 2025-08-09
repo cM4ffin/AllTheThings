@@ -458,17 +458,11 @@ root(ROOTS.Zones, {
 						["sourceQuests"] = { 30641 },	-- Battle Helm of the Thunder King
 						["qg"] = 59905,	-- Zhi the Harmonious
 						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["minReputation"] = { FACTION_GOLDEN_LOTUS, REVERED },
+						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
-						["groups"] = sharedData({
-							["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-							-- #if MOP
-							["OnUpdate"] = VALE_SOO_ONUPDATE,
-							-- #endif
-						}, {
 							i(90601),	-- Bonded Plate of the Golden Lotus
 							i(90607),	-- Burning Robes of the Golden Lotus
 							i(90598),	-- Crackling Chain of the Golden Lotus
@@ -479,13 +473,19 @@ root(ROOTS.Zones, {
 							i(90609),	-- Mending Robe of the Golden Lotus
 							i(90599),	-- Warmimng Chestguard of the Golden Lotus
 						}),
+						["groups"] = sharedData({
+							["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
+							-- #if MOP
+							["OnUpdate"] = VALE_SOO_ONUPDATE,
+							-- #endif
+						}, {
 					}),
 					q(30641, {	-- Battle Helm of the Thunder King
 						["sourceQuests"] = { 30640 },	-- Battle Spear of the Thunder King
 						["qg"] = 59905,	-- Zhi the Harmonious
 						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["minReputation"] = { FACTION_GOLDEN_LOTUS, REVERED },
+						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
@@ -494,8 +494,8 @@ root(ROOTS.Zones, {
 						["sourceQuests"] = { 30639 },	-- The Secrets of Guo-Lai
 						["qg"] = 59905,	-- Zhi the Harmonious
 						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
-						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						["minReputation"] = { FACTION_GOLDEN_LOTUS, REVERED },
+						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
@@ -617,18 +617,18 @@ root(ROOTS.Zones, {
 						-- #if MOP
 						["OnUpdate"] = VALE_SOO_ONUPDATE,
 						-- #endif
-						["groups"] = sharedData({
-							["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
-							-- #if MOP
-							["OnUpdate"] = VALE_SOO_ONUPDATE,
-							-- #endif
-						}, {
 							i(90596),	-- Burning Necklace of the Golden Lotus
 							i(90593),	-- Delicate Necklace of the Golden Lotus
 							i(90594),	-- Durable Necklace of the Golden Lotus
 							i(90592),	-- Ferocious Necklace of the Golden Lotus
 							i(90595),	-- Mending Necklace of the Golden Lotus
 						}),
+						["groups"] = sharedData({
+							["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
+							-- #if MOP
+							["OnUpdate"] = VALE_SOO_ONUPDATE,
+							-- #endif
+						}, {
 					}),
 					q(30637, {	-- The Guo-Lai Halls
 						["sourceQuests"] = { 30632 },	-- The Ruins of Guo-Lai

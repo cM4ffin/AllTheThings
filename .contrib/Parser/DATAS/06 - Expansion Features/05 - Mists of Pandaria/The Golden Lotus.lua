@@ -477,12 +477,12 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 			]]--
 			n(QUESTS, sharedData({ ["isDaily"] = true, ["maxReputation"] = { FACTION_GOLDEN_LOTUS, EXALTED }, }, {	-- Daily Quests
 				RemovedWithSOO(q(30236, {	-- Aetha
-					["qg"] = 59338,	-- Che Wildwalker
 					["sourceQuests"] = {
 						31242,	-- Mistfall Village
 						31245,	-- Mistfall Village
 						31249,	-- Mistfall Village
 					},
+					["qg"] = 59338,	-- Che Wildwalker
 					["coord"] = { 33.8, 72.2, VALE_OF_ETERNAL_BLOSSOMS },
 					["groups"] = {
 						objective(1, {	-- Aetha Subdued
@@ -555,12 +555,12 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					},
 				})),
 				RemovedWithSOO(q(30194, {	-- Encroaching Storm
-					["qg"] = 59338,	-- Che Wildwalker
 					["sourceQuests"] = {
 						31242,	-- Mistfall Village
 						31245,	-- Mistfall Village
 						31249,	-- Mistfall Village
 					},
+					["qg"] = 59338,	-- Che Wildwalker
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 				})),
 				RemovedWithSOO(q(30264, {	-- Enemy at the Gates
@@ -600,12 +600,12 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
 				})),
 				RemovedWithSOO(q(30239, {	-- Lao-Fe the Slavebinder
-					["qg"] = 59338,	-- Che Wildwalker
 					["sourceQuests"] = {
 						31242,	-- Mistfall Village
 						31245,	-- Mistfall Village
 						31249,	-- Mistfall Village
 					},
+					["qg"] = 59338,	-- Che Wildwalker
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 					["groups"] = {
 						i(90625),	-- Treasures of the Vale
@@ -680,12 +680,12 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["coord"] = { 33.8, 70.2, VALE_OF_ETERNAL_BLOSSOMS },
 				})),
 				RemovedWithSOO(q(30235, {	-- Quid Pro Quo
-					["qg"] = 59338,	-- Che Wildwalker
 					["sourceQuests"] = {
 						31242,	-- Mistfall Village
 						31245,	-- Mistfall Village
 						31249,	-- Mistfall Village
 					},
+					["qg"] = 59338,	-- Che Wildwalker
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 					["groups"] = {
 						i(87807),	-- Stone of the Water Strider (QI!)
@@ -693,12 +693,12 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					},
 				})),
 				RemovedWithSOO(q(30238, {	-- Return to Rest
-					["qg"] = 59338,	-- Che Wildwalker
 					["sourceQuests"] = {
 						31242,	-- Mistfall Village
 						31245,	-- Mistfall Village
 						31249,	-- Mistfall Village
 					},
+					["qg"] = 59338,	-- Che Wildwalker
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 				})),
 				q(30261, {	-- Roll Club: Serpent's Spine
@@ -710,12 +710,12 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
 				})),
 				RemovedWithSOO(q(30232, {	-- Ruffling Some Feathers
-					["qg"] = 59338,	-- Che Wildwalker
 					["sourceQuests"] = {
 						31242,	-- Mistfall Village
 						31245,	-- Mistfall Village
 						31249,	-- Mistfall Village
 					},
+					["qg"] = 59338,	-- Che Wildwalker
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 				})),
 				RemovedWithSOO(q(30205, {	-- Runelocked
@@ -727,12 +727,12 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["coord"] = { 33.6, 40.6, VALE_OF_ETERNAL_BLOSSOMS },
 				})),
 				RemovedWithSOO(q(30385, {	-- Setting Sun Garrison
-					["qg"] = 59338,	-- Che Wildwalker
 					["sourceQuests"] = {
 						30236,	-- Aetha
 						30239,	-- Lao-Fe the Slavebinder
 						30235,	-- Quid Pro Quo
 					},
+					["qg"] = 59338,	-- Che Wildwalker
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 				})),
 				RemovedWithSOO(q(31247, {	-- Setting Sun Garrison
@@ -814,12 +814,12 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				})),
 				
 				RemovedWithSOO(q(30237, {	-- The Pandaren Uprising Relived
-					["qg"] = 59338,	-- Che Wildwalker
 					["sourceQuests"] = {
 						31242,	-- Mistfall Village
 						31245,	-- Mistfall Village
 						31249,	-- Mistfall Village
 					},
+					["qg"] = 59338,	-- Che Wildwalker
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 				})),
 				RemovedWithSOO(q(31248, {	-- The Ruins of Guo-Lai
@@ -828,12 +828,12 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["minReputation"] = { FACTION_GOLDEN_LOTUS, HONORED },	-- CRIEVE NOTE: This opened at Honored for me.
 				})),
 				RemovedWithSOO(q(31294, {	-- The Ruins of Guo-Lai
-					["qg"] = 59338,	-- Che Wildwalker
 					["sourceQuests"] = {
 						30236,	-- Aetha
 						30239,	-- Lao-Fe the Slavebinder
 						30235,	-- Quid Pro Quo
 					},
+					["qg"] = 59338,	-- Che Wildwalker
 					--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 				})),
 				RemovedWithSOO(q(31296, {	-- The Ruins of Guo-Lai
@@ -954,8 +954,8 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				q(31387, {	-- Understanding The Shado-Pan (A)
 					["qg"] = 64030,	-- Lao Lang
 					["coord"] = { 84.4, 61.6, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_1_0 },	-- CRIEVE NOTE: Check this at Revered
 					["minReputation"] = { FACTION_GOLDEN_LOTUS, REVERED },
+					["timeline"] = { ADDED_5_0_4, REMOVED_5_1_0 },	-- CRIEVE NOTE: Check this at Revered
 					["races"] = ALLIANCE_ONLY,
 					["isBreadcrumb"] = true,
 					["lvl"] = lvlsquish(90, 90, 30),
@@ -963,8 +963,8 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				q(31389, {	-- Understanding The Shado-Pan (H)
 					["qg"] = 64002,	-- Sang-Bo
 					["coord"] = { 63.0, 21.2, VALE_OF_ETERNAL_BLOSSOMS },
-					["timeline"] = { ADDED_5_0_4, REMOVED_5_1_0 },	-- CRIEVE NOTE: Check this at Revered
 					["minReputation"] = { FACTION_GOLDEN_LOTUS, REVERED },
+					["timeline"] = { ADDED_5_0_4, REMOVED_5_1_0 },	-- CRIEVE NOTE: Check this at Revered
 					["races"] = HORDE_ONLY,
 					["isBreadcrumb"] = true,
 					["lvl"] = lvlsquish(90, 90, 30),
